@@ -43,6 +43,29 @@ public class ArrayListDemo {
         System.out.println("\nUpdated ArrayList: " + list);
 
         sc.close();
+
+        ArrayList<Integer> list2 = new ArrayList<>();
+
+        list2.add(10);
+        list2.add(20);
+        list2.add(30);
+        list2.add(40);
+        list2.add(50);
+        list2.add(10);
+        list2.get(0);
+        list2.set(0, 50);
+        list2.remove(0);
+        list2.size();
+        list2.contains(50);
+        list2.clear();
+
+        System.out.println("Are list and list2 equal: " + list.equals(list2));
+
+        list.clear();
+
+        System.out.println("After clear(): " + list);
+
+        System.out.println("Is ArrayList empty now: " + list.isEmpty());
     }
 }
 
