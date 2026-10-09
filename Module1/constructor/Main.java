@@ -42,18 +42,39 @@
 
 
 
-package Constructor;
+// package Constructor;
 
+// import OPPS.Child;
+
+// public class Main {
+
+//     public static void main(String[] args) {
+
+//         Child obj = new Child();
+
+//         obj.show();
+//         obj.display();
+//         obj.hello();
+//     }
+// }
+
+
+
+
+package constructor;
+
+import OPPS.Parent;
 import OPPS.Child;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Child obj = new Child();
+        Parent.show();
+        Child.show();
 
-        obj.show();
-        obj.display();
-        obj.hello();
+        Parent p = new Child();
+
+        p.show();
     }
 }
