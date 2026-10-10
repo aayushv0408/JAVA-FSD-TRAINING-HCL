@@ -8,7 +8,6 @@ public class LinkedListMethods {
 
         LinkedList<Integer> list = new LinkedList<>();
 
-        // 1. add()
         list.add(10);
         list.add(20);
         list.add(30);
@@ -16,32 +15,25 @@ public class LinkedListMethods {
 
         System.out.println("LinkedList: " + list);
 
-        // 2. add(index, element)
         list.add(2, 25);
         System.out.println("After add(index, element): " + list);
 
-        // 3. addFirst()
         list.addFirst(5);
         System.out.println("After addFirst(): " + list);
 
-        // 4. addLast()
         list.addLast(50);
         System.out.println("After addLast(): " + list);
 
-        // 5. get()
+        
         System.out.println("Element at index 2: " + list.get(2));
 
-        // 6. getFirst()
         System.out.println("First element: " + list.getFirst());
 
-        // 7. getLast()
         System.out.println("Last element: " + list.getLast());
 
-        // 8. set()
         list.set(2, 35);
         System.out.println("After set(): " + list);
 
-        // 9. size()
         System.out.println("Size: " + list.size());
 
         // 10. contains()
